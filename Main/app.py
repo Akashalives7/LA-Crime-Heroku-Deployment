@@ -71,7 +71,7 @@ def scatter1():
 def scatter2():
     return render_template("VisSS2.html")
 
-@app.route("/<zipcode>")
+@app.route("/zipcode")
 def chart1(zipcode):
     # df = pd.DataFrame(list(db.collection.find({})))
     # zip_df = df[df['Zip Code']==90013]
