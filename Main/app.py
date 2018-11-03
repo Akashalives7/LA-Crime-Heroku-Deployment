@@ -61,15 +61,11 @@ def choro1():
 
 @app.route("/choropleth2")
 def choro2():
-    return render_template("VisJH2.html")
+    return render_template("crime_rate_change.html")
 
 @app.route("/scatter1")
 def scatter1():
-    return render_template("VisSS1.html")
-
-@app.route("/scatter2")
-def scatter2():
-    return render_template("VisSS2.html")
+    return render_template("index-DS.html")
 
 @app.route("/zipcode")
 def chart1(zipcode):
